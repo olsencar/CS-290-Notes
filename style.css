@@ -1,0 +1,45 @@
+/*p {
+	color: red;
+	font-size: 24px;
+}*/
+
+em {
+	color: blue;
+}
+/* classes */
+.test-class {
+	background-color: green;
+}
+/*IDs*/
+#id-test {
+	border: solid 5px orange;
+}
+
+/* combinators */
+
+strong em {
+	text-decoration: underline;
+}
+.test-class em {
+	background-color: orange;
+}
+
+.outer-box {
+	width: 300px;
+	height: 200px;
+	padding: 20px;  /*the amount of padding from the border */
+	border: 2px solid black;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+}
+
+.inner-box {
+	/*max-width: 150px; */
+	margin: 10px 40px; /* sets margin on top and bottom to 20px and 30px on left and right */
+	padding: 5px 20px 0 100px;
+	border: 1px solid grey;
+	border-radius: 50%;
+
+}

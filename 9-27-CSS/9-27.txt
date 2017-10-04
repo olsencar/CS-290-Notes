@@ -1,0 +1,19 @@
+<div> tag is a generic block level element
+
+<span> is an inline element
+
+<header> is content that you want the user to definitely see.
+
+<nav> is for any navigation use. Put inside header
+
+<main> is where your main content will go. Like where the blog would go
+
+<article> is for articles
+
+<aside> is for scrollbars
+
+DOM (Document object model)
+
+----------------------------------------------------------------------------------
+
+CSS

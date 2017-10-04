@@ -1,0 +1,18 @@
+/* CSS comment */
+
+<selector> {
+	<properties>;
+}
+
+Combinators
+- A B -> B thats an descendant of A. Ex) A is <ol> B is <li> item
+- AB -> A that's also a B
+- A > B -> B that's a child of an A
+- A + B -> B that's the next sibling after A
+- A ~ B -> B that's a sibling after an A
+
+Specificity
+-Tags (strong, em, etc) Ones place (least specific)
+-Class (.class) Tens place
+-ID (#id) Hundreds place
+-Inline thousands place (most specific)

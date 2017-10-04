@@ -1,0 +1,7 @@
+client (browser) 
+	html
+	css
+	Javascript
+	Sends a request to the serverside in which the server sends back a response
+
+

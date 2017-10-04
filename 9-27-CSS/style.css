@@ -1,0 +1,12 @@
+p {
+	color: red;
+	font-size: 24px;
+}
+
+em {
+	color: blue;
+}
+
+.test-class {
+	background-color: green;
+}
