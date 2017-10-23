@@ -44,11 +44,15 @@ var newTextNode = document.createTextNode(userSpecifiedContent);
 newSpan.appendChild(newTextNode);
 
 newDiv.appendChild(newSpan);
+// newDiv.parentNode.removeChild();
 
 // better way to do above would be to add another class to css and then add a class to it
 console.log('newDiv', newDiv);
 // appends the new div to the end of the photocard container
 photoCardContainer.appendChild(newPhotoCard);
+
+
+// *************************EVENT HANDLING ****************************************************************
 
 
 
